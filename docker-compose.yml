@@ -1,6 +1,6 @@
 x-base_service: &base_service
     ports:
-      - "${WEBUI_PORT:-7860}:7860"
+      - "${WEBUI_PORT:-7860}"
     volumes:
       - &v1 ./data:/data
       - &v2 ./output:/output
